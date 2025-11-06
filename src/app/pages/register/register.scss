@@ -1,0 +1,67 @@
+@use "./../../../../public/forms-pages.scss";
+
+
+.error{
+    color: red;
+    color: var(--color-error);
+    text-align: left;
+    margin-top: 4px;
+}
+
+
+.contenedor{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    padding: 40px;
+    box-shadow: 0 8px 25px black;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+
+
+html{
+    min-height: 100%;
+}
+
+
+label{
+    display: block;
+    text-align: left;
+    font-weight: 500;
+    color: rgb(48, 47, 47);
+    margin-top: 12px;
+    font-size: 0.95rem;
+}
+
+
+input{
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border: 1px solid whitesmoke;
+    width: 250px;
+    font-size: 0.95rem;
+    transition: 0.2s;
+}
+
+
+
+input:focus{
+    border: rgb(46, 102, 102);
+    box-shadow: 0 0 5px black;
+}

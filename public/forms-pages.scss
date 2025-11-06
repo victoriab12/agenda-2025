@@ -1,0 +1,94 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 1px auto;
+    border-radius: 20px;
+    background-color: beige;
+
+    div{
+        margin: 2px 0;
+    }
+
+}
+
+
+
+form{
+    .error{
+        color: var(--color-error);
+    }
+}
+
+
+.button{
+    background-color: blue;
+    color: beige;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+a.button{
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-block;
+    width: auto;
+    align-self: center;
+}
+
+
+a.button:hover{
+    text-decoration: underline;
+}
+
+
+
+input{
+    width: 250;
+    border: 1px solid beige;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.card h1{
+    color: aquamarine;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+
+p {
+    text-decoration: none;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+input[type= "text"],
+input[type= "email"],
+input[type= "url"],
+input[type= "number"] {
+
+    padding: 10px 12px;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 0.97rem;
+    transition: all 0.2s;
+}
+
+
+input:focus{
+    border-color: aquamarine;
+    box-shadow: 0 0 5px rgb(65, 112, 97)
+}

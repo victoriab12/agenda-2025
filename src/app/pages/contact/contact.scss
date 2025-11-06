@@ -1,0 +1,68 @@
+@use "./../../../../public/forms-pages.scss";
+
+*{background-color: olive;}
+
+.error{
+    color: red;
+    color: var(--color-error);
+}
+
+#container{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.card{
+    background-color: yellowgreen;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
+}
+
+
+.add-button{
+    background-color: aquamarine;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#categoria{
+    display: flex;
+    gap: 20px;
+    background-color: aqua;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.contact.page{
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    border-radius: 8px;
+    box-shadow: 0 2px 5px;
+    transition: transform 0.2s;
+}
+
+.add-button{
+    color: black;
+}

@@ -1,0 +1,36 @@
+@use "./../../../public/forms-pages.scss";
+
+.categoria{
+    background-color: antiquewhite;
+}
+
+.favourite{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li.a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: color 0.2s;
+    border: 0;
+}
+
+.button{
+    display: inline-block;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-left: 9px;
+}

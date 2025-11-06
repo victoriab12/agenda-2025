@@ -1,0 +1,65 @@
+@use "./../../../../public/forms-pages.scss";
+
+
+.contact-details{
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 25px 30px;
+    box-shadow: 0 4px 10px black;
+}
+
+.contact-details h1{
+    font-size: 1.8rem;
+    color: rgb(25, 25, 82);
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgb(84, 84, 247);
+    padding-bottom: 8px;
+}
+
+
+.contact-details p{
+    font-size: 1rem;
+    margin: 8px 0;
+    color: black;
+}
+
+
+.contact-details .star{
+    font-size: 1.4rem;
+    color: yellow;
+}
+
+.contact-details .buttons{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+
+
+.contact-details button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.contact-details button:hover{
+    background-color: blue;
+    transform: scale(1.05);
+}
+
+
+.contact-details button.delete{
+    background-color: red;
+}
+
+.contact-details button.delete:hover{
+    background-color: red;
+}

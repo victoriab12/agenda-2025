@@ -1,0 +1,41 @@
+div{
+    background-color: aquamarine;
+    font-size: large;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 850px;
+}
+
+
+button{
+    border-radius: 20px;
+    border: 0px;
+    background-color: beige;
+    padding: 13px;
+}
+
+
+#opciones{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+}

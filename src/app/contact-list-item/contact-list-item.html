@@ -1,0 +1,20 @@
+
+<li class="categoria" [class.favourite]="contact().isFavorite === true">
+    <a [routerLink]="['/contacts, contact().id']"><span>{{contact().firstName}}{{contact().lastName}}</span></a>
+
+    
+    <span>{{contact().number}}</span>
+    <span>{{contact().email}}</span>
+    <span>-</span>
+
+    
+    <span>
+        <button (click)="openDeleteModal()">Borrar</button>
+        <a [routerLink]="['/contacts',contact().id,'edit']">Editar</a>
+    </span>
+    <span>
+        @if (contact().isFavorite === true) {
+            ⭐
+        }
+    </span>
+</li>
