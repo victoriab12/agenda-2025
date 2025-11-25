@@ -1,7 +1,7 @@
 <div id="container">
     <div class=card>
     <h1> Registrarse </h1>
-    <form #registerForm="ngForm" (ngSumit)="register(registerForm)">
+    <form #registerForm="ngForm" (ngSumit)="register(registerForm.form.value)">
 
         <div>
 
@@ -52,8 +52,8 @@
             <p class="error"> Error indeterminado, intente nuevamente. </p>
         }
 
-        <p> Ya tienes cuenta? <a routerLink="/login"> Iniciar sesión </a>
-        </p>
+        <button> Ya tienes cuenta? <a routerLink="/login"> Iniciar sesión </a>
+        </button>
     </form>
 
         

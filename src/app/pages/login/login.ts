@@ -20,7 +20,7 @@ export class Login {
     this.errorLogin = false;
     if(!form.value.email || !form.value.password){
       this.errorLogin = true;
-      return;
+      return
 
     }
 

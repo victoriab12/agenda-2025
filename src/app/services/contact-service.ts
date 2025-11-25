@@ -49,10 +49,10 @@ export class ContactsService {
         },
         body: JSON.stringify(nuevoContacto)
       });
-    if(!res.ok) return;
+    if (!res.ok) return;
     const resContact:Contact = await res.json();
     this.contacts.push(resContact);
-    return resContact;
+    return res
   }
 
   /** Edita un contacto */

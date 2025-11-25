@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import { Login } from './pages/login/login';
 import { Register } from './pages/register/register';
-import { LoggedLayout } from './pages/logged-layout/logged-layout';
+import { LoggedLayout } from './logged-layout/logged-layout';
 import { ContactsPage } from './pages/contact/contact';
 import { ContactDetailsPage } from './pages/contact-details-page/contact-details-page';
 import { onlyPublicUserGuard } from './guards/only-public-user-guard';

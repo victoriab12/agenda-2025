@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class AuthService {
-router = inject(Router);
+  router = inject(Router);
   token : null|string = localStorage.getItem("token");
   
 
@@ -19,10 +19,13 @@ router = inject(Router);
       }
     )
     if(res.ok){
-      this.token = await res.text()
+      this.token = await res.text();
       localStorage.setItem("token",this.token);
       this.router.navigate(["/"])
+      
+      
     }
+    console.log(res)
   }
 
   
